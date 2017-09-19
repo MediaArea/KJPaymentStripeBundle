@@ -1,5 +1,5 @@
 {
-    "name": "sopinet/kj-payment-stripe-bundle",
+    "name": "mediaarea/kj-payment-stripe-bundle",
     "type": "symfony-bundle",
     "description": "Payment Bundle providing access to the Stripe API",
     "keywords": ["stripe", "payment", "Symfony2"],
@@ -19,7 +19,7 @@
     },
     "require-dev": {
         "symfony/browser-kit": "*",
-        "symfony/finder": "~2.0,>=2.0.5|~3.0.0"
+        "symfony/finder": "~2.0,>=2.0.5|^3.3.0"
     },
     "autoload": {
         "psr-0": { "KJ\\Payment\\StripeBundle": "" }
